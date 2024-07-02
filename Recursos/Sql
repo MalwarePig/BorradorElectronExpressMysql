@@ -1,0 +1,12 @@
+create database Electron;
+use Electron;
+
+CREATE TABLE `Alumnos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(200) DEFAULT NULL,
+  `Cuota` varchar(15) DEFAULT NULL,
+  `Salida` datetime DEFAULT (now()),  
+  PRIMARY KEY (`id`)
+)
+
+select * from Alumnos

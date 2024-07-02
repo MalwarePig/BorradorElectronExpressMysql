@@ -14,7 +14,7 @@ function createWindow () {
             contextIsolation: false
         }
     })
-    //win.maximize();
+    win.maximize();
     win.loadFile('src/ui/index.html')
     win.webContents.openDevTools();
 
